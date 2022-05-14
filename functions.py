@@ -12,10 +12,10 @@ sct = mss.mss()
 
 # default monitor for chrome dinosaur with console open
 monitor = {
-    "left": 72,
-    "top": 135,
-    "width": 478,
-    "height": 155
+    "left": 77,
+    "top": 143,
+    "width": 600,
+    "height": 150
 }
 
 

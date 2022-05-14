@@ -1,4 +1,4 @@
-#import cv2
+import cv2
 import keyboard
 import numpy as np
 import os
@@ -24,7 +24,7 @@ for i in range(5):
 
 while True:
     x = grab_screen()
-    #cv2.imshow("Creating data", x)
+    cv2.imshow("Creating data", x)
     
     y = np.array([1, 0, 0, 0])
     try:
@@ -43,10 +43,10 @@ while True:
     xs.append(x)
     ys.append(y)
 
-    #cv2.waitKey(1) # it won't work without this
+    cv2.waitKey(1) # it won't work without this
 
 # clean up
-#cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 
 #print(xs[0].shape)
 
