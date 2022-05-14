@@ -8,6 +8,9 @@ import time
 from functions import grab_screen, input_dir
 
 
+print("Imports completed.")
+
+
 def do_action(num):
     if num == 0:
         pass
