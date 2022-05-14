@@ -3,10 +3,10 @@
 ```py
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements2.txt
 ```
 
-If this doesn't work, try requirements2.txt (updated packages).
+requirements2.txt has the updated packages.
 
 Open Chrome tab -> inspect -> network -> make offline
 Change region in functions.py to match top left of the dinosaur game
